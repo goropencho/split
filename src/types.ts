@@ -1,0 +1,12 @@
+import { ObjectId } from "mongoose";
+
+export interface UserDocument {
+  _id?: ObjectId;
+  username: string;
+  password: string;
+  email: string;
+}
+
+export interface Context {
+  loggedInUser: UserDocument;
+}
