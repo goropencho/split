@@ -1,4 +1,4 @@
-import { User } from "../models/user";
+import { User } from "../models/user/user";
 
 export default class UsersRepository {
   getOneById(id: string) {

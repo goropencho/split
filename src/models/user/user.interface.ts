@@ -1,4 +1,6 @@
 import mongoose, { Model, Document } from "mongoose";
+import { AccessAndRefreshTokens } from "../../utils/token/token";
+import { QueryResult } from "../../utils/paginate/paginate";
 
 export interface IUser {
   name: string;
